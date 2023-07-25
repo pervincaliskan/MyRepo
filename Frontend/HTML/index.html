@@ -1,0 +1,152 @@
+<!--Jonas Schmedtmann Course Exercises -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML DERS 1</title>
+</head>
+<body>
+  <!--tum web sayfasinin elementlerinin iceren bloktur-->
+<!--p etiketi-->
+<p> 
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illo nam, ut architecto dolor nisi odit explicabo beatae amet iste dignissimos laudantium dolores possimus error, accusamus libero natus cum mollitia excepturi. 
+  Veniam delectus provident necessitatibus laudantium facilis recusandae, asperiores, suscipit debitis alias praesentium saepe quasi eligendi doloribus labore consequatur odit nulla error deserunt. Recusandae voluptate ad velit illo? Quidem eaque nihil, architecto iure sapiente,
+   at labore culpa rerum soluta est fugit qui iste ab ducimus! Repellendus sed eum distinctio delectus eveniet saepe consectetur explicabo nemo nostrum placeat. Saepe, eveniet temporibus at omnis magnam facilis a aperiam voluptatibus provident excepturi commodi aliquam numquam itaque possimus distinctio sapiente? Accusamus, ipsam eius. Sed molestiae fugit eos soluta doloribus
+    inventore omnis blanditiis? Asperiores nostrum deserunt officia, 
+   adipisci optio quo saepe quas ipsum tempora doloribus animi ad non nesciunt aspernatur earum dolor officiis ullam, laborum reprehenderit. Porro odit at omnis voluptatum esse! Exercitationem laboriosam 
+   fugit quae praesentium alias labore sint, omnis, quos provident eum,
+   laborum officiis adipisci libero sequi doloremque explicabo totam nostrum veritatis! Ea, error ex reprehenderit eaque corporis quam nemo laudantium? 
+  Sed magni accusantium quidem ut illo ducimus nemo molestiae pariatur, nobis, architecto neque illum dolor voluptates amet incidunt fugiat dolorum reiciendis. Minima.
+</p>
+<!--a etiketi-->
+<a href="Galeriye git">
+  <!-- attribute ile kullanım-->
+  <a href="http://www.gooogle.com"> Link adresine git</a>
+  <a href="http://www.gooogle.com" target="_blank"> Link adresi baska sekmede acılır</a>
+<br>
+  <!--img etiketi ve img de attribute alır (src)-->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" 
+  alt="resim bulunamadı" title="github" width="100px" height="300px"/>
+
+
+  
+  <!-- stil etiketleri-->
+<b> bu bir kalın yazıdır</b>
+<i>bu bir egik yazı</i>
+<u> bu bir altı cizgili yazı</u>
+<s>bu bir üstü cizgili yazıdır</s>
+<!--table -->
+
+<table border ="1px">
+<thead>
+  <th>Ad Soyad</th>
+  <th>Telefon</th>
+  <th>Adres</th>
+</thead>
+<tbody>
+<tr>
+  <td>Pervin Çalışkan</td>
+  <td>00000000</td>
+  <td>Adana</td>
+</tr>
+<tr>
+  <td>Pervin Çalışkan</td>
+  <td>00000000</td>
+  <td>Adana</td>
+</tr>
+<tr></tr>
+<tr></tr>
+</tbody>
+
+
+<tfoot>
+
+<th colspan="2" align="right">Toplam Kayıt</th> <!--iki sutunu birleştirdi ve hizaladık-->
+<th align="left">2</th>
+</tfoot>
+</table>
+<!--hr ve align kullanımı -->
+<p align="left">  Sol Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur
+   laudantium aliquid impedit nesciunt atque! Eligendi ipsa accusamus vel ratione.</p>
+   <hr>
+<p align="right"> Sag Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quia voluptate harum,
+   odit eum inventore tenetur nostrum consequatur impedit minima!</p>
+ <p align="center"> Orta Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quia voluptate harum,
+    odit eum inventore tenetur nostrum consequatur impedit minima!</p>
+    <p align="justify"> İki Yana yaslı Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quia voluptate harum,
+      odit eum inventore tenetur nostrum consequatur impedit minima!</p>
+
+      <!--liste etiketleri-->
+      <h3> Gerekli Evraklar Listesi</h3>
+      <ul>
+       <li>Tc Kimlik</li> 
+       <li>İkametgah </li>
+       <li>Adli Sicil Kaydı</li>
+       <li>4 adet fotoğraf</li>
+      </ul>
+      <h3>Katılım Şartları</h3>
+      <ol> <!--sıralı liste -->
+        <li>18 yaş üstü</li>
+        <li>Lisans derecesi </li>
+        <li>Sabıka kaydı olmamalı</li>
+      </ol>
+
+      <h3>liste etiketi ödevi</h3>
+      <ol>
+      <li>1.kısım<ol>
+        <li>deneme</li>
+        <li>deneme2</li>
+        <li>deneme3</li>
+
+      </ol></li>
+      <li>2.kısım</li>
+      <ol>
+        <li>hop deneme4 </li>
+      </ol>
+    </ol>
+    <!--Form etiketleri-->
+   <form action=""> <!--eger verileri bir baska yere göndermek istiyorsak form etikedi kullanılır-->
+ Kullanıcı Adı <input type="text" value="Pervin Çalışkan"/> <!-- value ile browser otomatik kaydeder set eder -->
+    Şifre <input type="password" value="123456"/>
+    E-posta <input type="text" value="deneme@deneme.com"/>
+  Sayı Girişi  <input type="number" />
+    <input type ="submit" value="Kaydet"/>
+
+   </form> 
+  <hr/>
+  <h3>Hobileriniz</h3>
+ TV İzlemek <input type="checkbox" value="tv">
+Sinema <input type="checkbox" value="sinema">
+ Futbol <input type="checkbox" value="futbol">
+  Tiyatro <input type="checkbox" value="tiyatro">
+  Kitap Okumak <input type="checkbox" value="kitap">
+  <hr/><!--sadece bir tane seçim yapar digerleri inaktif olur-->
+  <h3>Hobileriniz Lütfen bir tane seçiniz</h3>
+  TV İzlemek <input type="radio" value="tv" name="hobi">
+ Sinema <input type="radio" value="sinema"name="hobi">
+  Futbol <input type="radio" value="futbol"name="hobi">
+   Tiyatro <input type="radio" value="tiyatro"name="hobi">
+   Kitap Okumak <input type="radio" value="kitap"name="hobi">
+
+   <hr> <!--dosya seç-->
+   <input type="file">
+   <input type="date">
+
+   <hr>
+   <!--Select etiketi-->
+   <select name="cinsiyet" id="cinsiyet">
+   <option value="bay" selected>Bay</option>
+   <option value="bayan">Bayan</option></select>
+
+   <h3>Kedi Türleri Sdeçiniz</h3>
+   <select name="cinsiyet" id="cinsiyetCok" multiple style="width: 120px; height: 200px;">
+  <option value="tekir">tekir</option>
+  <option value="siyam">siyam</option>
+  <option value="britishFold">britishFold</option>
+  <option value="iran">iran</option>
+  <option value="scottishFold">scottishFold</option>
+  
+  </select>
+</body>
+</html>

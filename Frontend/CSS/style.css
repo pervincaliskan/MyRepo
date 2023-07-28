@@ -1,0 +1,9 @@
+#ilkParagraf {
+  color: #f89 !important; /* important verirsek aşağıdaki yellowgreeani değil buradaki color ı alır*/
+}
+#ikinciParagraf {
+  font-style: italic;
+}
+hr {
+  border-color: blueviolet;
+}

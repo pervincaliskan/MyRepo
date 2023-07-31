@@ -1,0 +1,15 @@
+*{
+  font-size: 20px;
+}
+#elem1{
+  background-color: #ff8899;
+}
+#elem2{
+  background-color: blue;
+}
+/* RGB renk değeri, belirli bir rengin görüntülenebilir olması için kırmızı,
+ yeşil ve mavinin göreli yoğunluğunu belirtir.
+RGB'ye bağımsız değişken 255'i aşan her türlü RGB değerinin 255 olduğu varsayılır.*/
+#elem3{ rgb(123,65,12) ;
+  
+}

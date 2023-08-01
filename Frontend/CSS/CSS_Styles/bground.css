@@ -1,15 +1,40 @@
-*{
+* {
   font-size: 20px;
 }
-#elem1{
+body{
+  background-color: blueviolet;
+}
+
+#elem1 {
   background-color: #ff8899;
 }
-#elem2{
+
+#elem2 {
   background-color: blue;
 }
+
 /* RGB renk değeri, belirli bir rengin görüntülenebilir olması için kırmızı,
  yeşil ve mavinin göreli yoğunluğunu belirtir.
 RGB'ye bağımsız değişken 255'i aşan her türlü RGB değerinin 255 olduğu varsayılır.*/
-#elem3{ rgb(123,65,12) ;
-  
+
+
+#elem3 {
+  background-color: rgb(123, 65, 12);
+
+}
+
+#elem4 {
+  background-color: rgba(66, 66, 66, 1);
+}
+
+#elem5 {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+p{
+  height: 1500px;
+  color: azure;
+  background-image: url("indir.jpg");
+  background-repeat: no-repeat; /* resmi tekrarlama*/
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
 }

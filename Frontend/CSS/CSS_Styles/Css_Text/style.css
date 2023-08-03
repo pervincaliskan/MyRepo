@@ -1,0 +1,17 @@
+.renk{ /*nokta class bildirir*/
+  color:red;
+ /*  color: #666666;
+  color: rgb(34,123, 12); */
+  text-align: justify;
+  line-height: 25px; /*satır arası mesafe*/
+  letter-spacing: 5px/*harfler arası boşluk*/;
+}
+a{
+  text-decoration: none; /*linkteki altındaki çizgiyi kaldırır*/
+  color: blueviolet;
+}
+.trans{
+  text-transform: capitalize; /*uppercase vs de olabilir*/
+  color: pink;
+  text-indent: 50px;
+}

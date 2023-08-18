@@ -1,7 +1,54 @@
-table,tr,td{
+*{
+  font-family:"Open Sans"Arial, Helvetica, sans-serif;
+}
+
+table,
+tr,
+td {
   border: 2px solid #666;
 
 }
-table{
-  border-collapse:collapse ;
+
+td,
+th {
+  padding: 5px;
+  width: 200px;
+
+
+}
+
+table {
+  border-collapse: collapse;
+}
+ /*
+tr td:nth-child(1) {
+ background-color: yellow;
+
+}*/ 
+tr td:nth-child(2) {  /*2. sütündaki çocuk yani elemanı bold yaptık*/
+  font-weight: bold;
+}
+
+tr td:nth-child(3) {
+  /*3. sütündaki çocuk yani elemanı center yaptık*/
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: aliceblue;
+}
+
+tbody tr:nth-child(even) {
+  background-color: greenyellow;
+
+
+}
+
+tbody tr:first-child ,
+tbody tr:last-child {  /* ilk ve son elemanı italic ve kırmızı yaptık*/
+  font-style: italic;
+  color: red;
+}
+tbody tr:hover{ /*yazının üzerine gelindiğinde plum rengi gözükür */
+  background-color: plum;
 }

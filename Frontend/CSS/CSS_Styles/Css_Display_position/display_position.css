@@ -1,0 +1,49 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+}
+
+.kutu1 {
+  width: 100px;
+  height: 100px;
+  background-color: indianred;
+  color: white;
+  /*display özellik bir öğenin iç ve dış görüntüleme türlerini ayarlar*/
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.kutu2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(120, 92, 205);
+  color: white;
+  float: left;
+  margin-right: 10px;
+  /*position relative de Öğe, belgenin normal akışına göre konumlandırılır ve ardından ,
+    top right bottom left static  değerlerine göre kendisine göre kaydırılır
+     */
+     position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.kutu3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(205, 92, 162);
+  color: white;
+  float: left;
+  /**/
+  position: absolute;
+  margin-right: 10px;
+}
+.kutu4 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(205, 199, 92);
+  color: white;
+  float: left;
+  margin-right: 10px;
+}

@@ -1,0 +1,36 @@
+.kutu {
+  width: 200px; /*genişlik*/
+  background-color: burlywood;
+  /*Padding kutunun içine iç boşluk verir*/
+  /*1. Stil*/
+  padding: 20px;
+  /*2. Stil*/
+  padding-right: 50px; 
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  /*3. Stil saat yönünte*/
+  padding: 10px 20px 30px 40px;
+
+  /*4. Stil yukardan aşağı 10, sağdan soldan 10px olur*/
+  padding: 10px 10px;
+/*Kendinden sonraki elementi iter */
+  /* margin: 20px;*/
+  margin-bottom: 300px;
+  /* aşağı;*/
+  margin-top: 20px;
+  /* yukarı*/
+  margin-left: 10px;
+  /* sol*/
+  margin-right: 10px;
+  /* sağ*/
+
+  margin: 40px 30px;
+}
+
+.kutu2 {
+  width: 200px;
+  background-color: indianred;
+  color: white;
+}

@@ -1,0 +1,31 @@
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu{
+  list-style-type: none;
+  padding: 0px;
+  margin:0px;
+  background-color: rgb(0, 0, 0,0.78);
+  height: 35px; /*bir lemenatin normal yükseklik ve satır yüksekliğini aynı verirsek hizalamasını yapar*/
+  line-height: 35px;
+  border-bottom: 1px solid  rgb(0, 0, 0,0.78);
+
+}
+.menu li{
+  float: left;
+  margin-right: 10px; /*li'leri birbirinden iter*/
+
+}
+
+.menu li a {
+text-decoration: none;
+color: #ccc;
+display: block;
+padding: 0px, 10px;
+}
+.menu li a:hover {
+  color: orange;
+  background-color: black;
+  border-bottom:1px solid orange;
+  transition: all ease-in 0.2s;
+  }

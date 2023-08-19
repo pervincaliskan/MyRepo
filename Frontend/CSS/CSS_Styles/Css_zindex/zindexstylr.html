@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    .kutu1, .kutu2{
+width: 100px;
+height: 100px;
+/*margin-right: 10px;*/
+float: left;
+
+    }
+    .kutu1{
+      background-color: coral;
+      z-index: 1;
+
+    }
+    .kutu2{
+      background-color: rgb(71, 203, 255);
+      position: absolute;
+      left: 50px;
+      top: 50px;
+      opacity: 0.6;
+      z-index: -1; /*böylece kutu2 kutu1 in arkasında kalır*/
+    }
+    .kutu2:hover{
+      background-color: plum; /*üzerine geldiğimizde plum rengini alır*/
+    }
+  </style>
+</head>
+<body>
+  <div class="kutu1"></div>
+  <div class="kutu2"></div>
+</body>
+</html>
